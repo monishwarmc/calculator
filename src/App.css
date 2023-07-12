@@ -1,35 +1,35 @@
 .App{
-    text-align: center;
-    background-color: chartreuse;
-    padding: 3rem;
+  text-align: center;
+  background-color: chartreuse;
+  padding: 3rem;
 }
 button{
-    color:rgb(8, 8, 8);
-    background-color: aqua;
-    border-radius: 16%;
-    padding: 0.3rem;
-    margin: 0.3rem;
+  color:rgb(8, 8, 8);
+  background-color: aqua;
+  border-radius: 16%;
+  padding: 0.3rem;
+  margin: 0.3rem;
 }
 .in{
-    margin: 16px;
-    border-radius: 16%;
-    background-color: aqua;
-    padding: 5px;
-    border: solid 5px rgb(0, 4, 255);
-    color: rgb(7, 7, 7);
+  margin: 16px;
+  border-radius: 16%;
+  background-color: aqua;
+  padding: 5px;
+  border: solid 5px rgb(0, 4, 255);
+  color: rgb(7, 7, 7);
 }
 h1{
-    display: inline-flex;
-    background-color: coral;
-    width: fit-content;
-    padding:1rem;
-    color:rgb(20, 73, 220);
+  display: inline-flex;
+  background-color: coral;
+  width: fit-content;
+  padding:1rem;
+  color:rgb(20, 73, 220);
 }
 
 p{
-    display: inline-flex;
-    background-color: rgb(255, 196, 0);
-    width: fit-content;
-    padding: 1rem;
-    border-radius: 1rem;
+  display: inline-flex;
+  background-color: rgb(255, 196, 0);
+  width: fit-content;
+  padding: 1rem;
+  border-radius: 1rem;
 }

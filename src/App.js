@@ -1,51 +1,41 @@
-import {
-  useState,
-  useRef
-} from "react"; 
-import "./App.css";
+import React, { useRef, useState } from 'react';
+import './App.css';
 
-function App() { 
+function App() {
   const inputRef = useRef(null); 
   const resultRef = useRef(null); 
   const [result, setResult] = useState(0); 
- 
+
   function plus(e) { 
     e.preventDefault(); 
     setResult((result) => result + Number(inputRef.current.value)); 
   }; 
- 
   function minus(e) { 
-  	// Add the code for the minus function 
     e.preventDefault(); 
     setResult((result) => result - Number(inputRef.current.value));
   };
  
   function times(e) { 
-    // Add the code for the plus function 
     e.preventDefault(); 
     setResult((result) => result * Number(inputRef.current.value));
   }; 
  
   function divide(e) { 
-    // Add the code for the divide function 
     e.preventDefault(); 
     setResult((result) => result / Number(inputRef.current.value));
   };
  
   function resetInput(e) { 
-    // Add the code for the resetInput function 
     e.preventDefault();
     inputRef.current.value = null;
   }; 
  
   function resetResult(e) { 
-  	// Add the code for the resetResult function 
     e.preventDefault();
     setResult(null);
   }; 
- 
-  return ( 
-    <div className="App"> 
+  return (
+    <div className="App">
       <div> 
         <h1>Simplest Working Calculator</h1> 
       </div> 
@@ -69,14 +59,10 @@ function App() {
         </div>
         <button onClick={resetInput} className="reset input">resetInput</button>
         <button onClick={resetResult} className="reset result">resetResult</button>
-        {/* Add the subtract button */} 
-        {/* Add the multiply button */} 
-        {/* Add the divide button */} 
-        {/* Add the resetInput button */} 
-        {/* Add the resetResult button */} 
       </form> 
-    </div> 
-  ); 
-} 
- 
-export default App; 
+    </div>
+  );
+}
+
+export default App;
+
